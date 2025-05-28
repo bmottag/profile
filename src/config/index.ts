@@ -1,12 +1,12 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Benjamin Motta — Software Developer",
+  author: "Benjamin Motta",
   description:
     "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/benjamin-small.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -26,49 +26,53 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Benjamin Motta",
-    specialty: "Web Developer",
+    specialty: "Software Developer",
     summary:
       "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
     email: "example@email.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Banana Script",
+      position: "Software Developer",
+      startDate: "June 2023",
+      endDate: "June 2024",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "As part of a large development team for modern healthcare initiative, I contributed to the modernization of a telemedicine web application by leading the migration of the backend from Laravel 8 to Laravel 9. This upgrade improved the system's performance, security, and developer efficiency, while aligning the codebase with the latest industry standards.",
+        "On the frontend, I collaborated on building a responsive and dynamic interface using Next.js, enabling a smooth experience for both patients and healthcare professionals. The platform supports online appointment scheduling, virtual consultations, medical record access, and secure communication — all optimized for cross-device usability.",
+        "Working closely with backend and frontend developers, I focused on scalable architecture, seamless API integration, and clean UI implementation. This project empowered healthcare providers to offer end-to-end digital consultations, significantly improving accessibility and operational efficiency.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "RevStar Consulting",
+      position: "Software Developer",
+      startDate: "March 2022",
+      endDate: "June 2023",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Provided ongoing support for a telemedicine platform built with Laravel 8 and MySQL, ensuring system stability, bug resolution, and performance optimization. Worked closely with the development and QA teams to maintain application reliability in a high-availability environment.",
+        "In addition to support tasks, I implemented new features that enhanced the platform’s functionality — including improvements to the consultation workflow, user management modules, and patient record handling. Each feature was developed with a strong focus on code quality, user experience, and security.",
+        "This role required a deep understanding of the platform’s architecture, strong problem-solving skills, and the ability to quickly adapt to evolving project needs. My contributions helped ensure the system continued to meet the demands of a growing user base in the healthcare sector.",
       ],
     },
     {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+      company: "V-Contracting",
+      position: "Web Developer",
+      startDate: "October 2016",
+      endDate: "May 2025",
+      summary: [
+        "Designed, developed, and implemented a custom web application using PHP and the CodeIgniter framework to support internal operations. The solution leveraged jQuery, AJAX, Bootstrap, and MySQL to provide a responsive and user-friendly interface across multiple modules.",
+        "Key functionalities included an employee access control system, a module to request and manage time off, and digital forms for capturing safety information per job site, ensuring compliance with workplace safety regulations. These tools helped streamline daily processes and reduce paperwork.",
+        "Additionally, I developed a feature to perform equipment inspections via QR codes, allowing field staff to scan and submit inspection forms directly from mobile devices. A system configuration module was also built to manage parametric tables and update internal references without requiring code changes. This project significantly improved operational efficiency and data accuracy across the organization.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "V-Contracting",
+      summary: "Custom web application using CodeIgniter framework.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: "/v-contracting.ca.png",
     },
     {
       name: "Shopp App",
@@ -87,11 +91,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I’m Benjamin Motta, a passionate Web Developer with over a decade of experience building tailored digital solutions.
+      From backend architecture in PHP and Laravel to sleek front-end interfaces using JavaScript, HTML5, and CSS, I craft applications that are not only functional, but scalable and user-focused. I thrive on transforming complex ideas into clean, maintainable code — always aiming to merge business goals with seamless user experiences.
+      Over the years, I’ve delivered custom software for startups and enterprises alike, focusing on performance, usability, and long-term maintainability. Whether it’s building secure APIs, integrating databases like MySQL or PostgreSQL, or working in agile teams with Git and JIRA — I’m all about creating impact through technology.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/benjamin-big.jpeg",
   },
 };
 
