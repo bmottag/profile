@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Benjamin Motta",
     specialty: "Software Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Software developer with a passion for creating reliable, user-focused applications using the latest technologies and modern development practices.",
     email: "example@email.com",
   },
   experience: [
@@ -71,22 +71,15 @@ export const SITE_CONTENT: SiteContent = {
       name: "V-Contracting",
       summary: "Custom web application using CodeIgniter framework.",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "https://github.com/bmottag/omega",
       image: "/v-contracting.ca.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "SET INGENIEROS",
+      summary: "Custom web application using CodeIgniter framework.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
-    },
-    {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: "/set-ingenieros.png",
     },
   ],
   about: {
